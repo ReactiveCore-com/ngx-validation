@@ -14,7 +14,7 @@ npm install ngx-validation --save
 
 ### Setup
 Set up in your project like this
-```
+```ts
  import{ NgxValidation } from 'ngx-validation'
  @NgModule({
    imports:[
