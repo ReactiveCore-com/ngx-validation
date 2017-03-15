@@ -1,0 +1,60 @@
+{
+  "name": "ngx-validation",
+  "version": "1.0.0",
+  "description": "validation directives by ReactiveCore",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactiveCore-com/ngx-validation.git"
+  },
+  "dependencies": {
+    "@angular/animations": "^4.0.0-rc.1",
+    "@angular/common": "^4.0.0-rc.2",
+    "@angular/compiler": "^4.0.0-rc.2",
+    "@angular/core": "^4.0.0-rc.2",
+    "@angular/flex-layout": "^2.0.0-beta.5",
+    "@angular/forms": "^4.0.0-rc.2",
+    "@angular/http": "^4.0.0-rc.2",
+    "@angular/material": "^2.0.0-beta.2",
+    "@angular/platform-browser": "^4.0.0-rc.2",
+    "@angular/platform-browser-dynamic": "^4.0.0-rc.2",
+    "@angular/router": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.0.0-beta.32.3",
+    "@angular/compiler-cli": "^4.0.0-rc.2",
+    "@types/d3": "^4.3.0",
+    "@types/jasmine": "2.5.38",
+    "@types/node": "^6.0.42",
+    "codelyzer": "2.0.0-beta.4",
+    "gulp": "^3.9.1",
+    "gulp-conventional-changelog": "^1.1.0",
+    "gulp-load-plugins": "^1.4.0",
+    "jasmine-core": "2.5.2",
+    "jasmine-spec-reporter": "2.5.0",
+    "jsdoc": "^3.4.3",
+    "karma": "1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-remap-istanbul": "^0.2.1",
+    "protractor": "4.0.9",
+    "ts-node": "1.2.1",
+    "tslint": "4.0.0",
+    "typescript": "^2.1.6",
+    "webdriver-manager": "10.2.5"
+  },
+  "keywords": [
+    "angular2",
+    "validation"
+  ],
+  "author": "Christ Portscheller && Joe Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReactiveCore-com/ngx-validation/issues"
+  },
+  "homepage": "https://github.com/ReactiveCore-com/ngx-validation#readme"
+}
