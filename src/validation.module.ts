@@ -4,11 +4,9 @@ import { EqualValidator } from './directives/equal-validator.directive';
 import { SqlValidator } from './directives/sql-validator.directive';
 import { FileUploaderDirective } from './directives/file-uploader.directive';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/typings/animations';
 @NgModule({
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
   ],
@@ -16,9 +14,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/typings/anima
     SqlValidator,
     FileUploaderDirective,
     EmailValidator,
-    EqualValidator,
+    EqualValidator
   ],
-  exports: []
+  exports: [
+    SqlValidator,
+    FileUploaderDirective,
+    EmailValidator,
+    EqualValidator
+  ]
 })
 export class NgxValidation {
 
