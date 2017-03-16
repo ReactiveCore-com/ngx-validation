@@ -1,11 +1,15 @@
 # ngx-validation
-Angular2 + form validators
-[![Build Status](https://travis-ci.org/ReactiveCore-com/ngx-validation.svg?branch=master)](https://travis-ci.org/ReactiveCore-com/ngx-validation)
+
+[![Coverage Status](https://coveralls.io/repos/github/ReactiveCore-com/ngx-validation/badge.svg?branch=master)](https://coveralls.io/github/ReactiveCore-com/ngx-validation?branch=karma-fix)
 [![Coverage Status](https://coveralls.io/repos/github/ReactiveCore-com/ngx-validation/badge.svg?branch=master)](https://coveralls.io/github/ReactiveCore-com/ngx-validation?branch=master)
 
-ngx-validation is made by ReactiveCore for common form issues:
+Angular2 + form validators
+
+ngx-validation is made by ReactiveCore for common form validation:
 - email validation
-- file Uploading
+- file upload type validation
+- sql query validation
+- equals validation
 
 
 ### Installation
