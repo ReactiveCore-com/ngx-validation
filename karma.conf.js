@@ -17,7 +17,8 @@ module.exports = function (config) {
       { pattern: './src/test.ts', watched: false }
     ],
     preprocessors: {
-      './src/test.ts': ['@angular/cli']
+      './src/test.ts': ['@angular/cli'],
+      './src/app/*.ts': 'coverage'
     },
     mime: {
       'text/x-typescript': ['ts','tsx']
