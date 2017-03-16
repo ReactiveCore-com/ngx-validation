@@ -5,7 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EmailValidator } from './directives/email-validator.directive';
 import { EqualValidator } from './directives/equal-validator.directive';
 import { SqlValidator } from './directives/sql-validator.directive';
-import { FileUploaderDirective } from './directives/file-uploader.directive';
+import { FileTypeValidator } from './directives/file-type-validator.directive';
 
 @NgModule({
   imports: [
@@ -15,18 +15,16 @@ import { FileUploaderDirective } from './directives/file-uploader.directive';
   ],
   declarations: [
     SqlValidator,
-    FileUploaderDirective,
+    FileTypeValidator,
     EmailValidator,
     EqualValidator
   ],
   exports: [
     SqlValidator,
-    FileUploaderDirective,
+    FileTypeValidator,
     EmailValidator,
     EqualValidator
   ]
 })
-export class NgValidationModule {
-
-}
+export class NgValidationModule { }
 

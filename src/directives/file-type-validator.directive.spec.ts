@@ -1,5 +1,5 @@
 /* tslint:disable:no-unused-variable */
-import { FileUploaderDirective } from './file-uploader.directive';
+import { FileTypeValidator } from './file-type-validator.directive';
 import { ElementRef } from '@angular/core';
 import {FormControl} from '@angular/forms';
 describe('FileUploaderDirective', () => {
@@ -9,7 +9,7 @@ describe('FileUploaderDirective', () => {
   input.type = 'file';
   const el = new ElementRef(input);
   const control = new FormControl;
-  const directive = new FileUploaderDirective(el);
+  const directive = new FileTypeValidator(el);
   directive.control = control;
   it('should create an instance', () => {
     expect(directive).toBeTruthy();

@@ -1,14 +1,30 @@
-import { Directive, forwardRef, Input,
-  HostListener, ElementRef, Output, EventEmitter } from '@angular/core';
-import { Validator, NG_VALIDATORS, AbstractControl } from '@angular/forms';
+import {
+  Directive,
+  forwardRef,
+  Input,
+  HostListener,
+  ElementRef,
+  Output,
+  EventEmitter
+} from '@angular/core';
+import {
+  Validator,
+  NG_VALIDATORS,
+  AbstractControl
+} from '@angular/forms';
 
 @Directive({
   selector: '[fileTypeValidation][formControlName]',
   providers: [
-    {provide: NG_VALIDATORS, useExisting: forwardRef(() => FileUploaderDirective), multi: true}
+    {
+      provide: NG_VALIDATORS,
+      useExisting: forwardRef(() => FileTypeValidator),
+      multi: true
+    }
   ]
 })
-export class FileUploaderDirective implements Validator {
+
+export class FileTypeValidator implements Validator {
   @Input() fileType: [string] = ['owl', 'xml'];
   @Output() fileAdded = new EventEmitter();
   files: File[];
