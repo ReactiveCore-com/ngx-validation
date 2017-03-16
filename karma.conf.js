@@ -32,7 +32,7 @@ module.exports = function (config) {
       environment: 'dev'
     },
     reporters: config.angularCli && config.angularCli.codeCoverage
-              ? ['progress', 'coverage-istanbul']
+              ? ['progress', 'coverage-istanbul','coverage', 'coveralls']
               : ['progress'],
     port: 9876,
     colors: true,
