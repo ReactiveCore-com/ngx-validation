@@ -3,7 +3,7 @@ import { Directive, forwardRef, Input,
 import { Validator, NG_VALIDATORS, AbstractControl } from '@angular/forms';
 
 @Directive({
-  selector: '[fileUpload][formControlName]',
+  selector: '[fileTypeValidation][formControlName]',
   providers: [
     {provide: NG_VALIDATORS, useExisting: forwardRef(() => FileUploaderDirective), multi: true}
   ]
@@ -34,7 +34,7 @@ export class FileUploaderDirective implements Validator {
         this.element.nativeElement.value = '';
         this.fileAdded.emit(null);
         return {
-          file: ` Files in one of the extensions of ${this.fileType} are accepted!`
+          file: `Only file extensions with ${this.fileType} are allowed`
         };
       }
     }
