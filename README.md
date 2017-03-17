@@ -35,6 +35,5 @@ Set up in your project like this
 ### Examples
  use the email validator
   ```ts
-  //  put the directive right on the formControl
     <input mdInput placeholder="Email" validateEmail  formControlName="email" >
   ```
