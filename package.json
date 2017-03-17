@@ -56,8 +56,8 @@
     "angular2",
     "validation"
   ],
-  "author": "Christ Portscheller && Joe Zhou",
-  "license": "ISC",
+  "author": "ReactiveCore - Chris Portscheller && Joe Zhou",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ReactiveCore-com/ngx-validation/issues"
   },

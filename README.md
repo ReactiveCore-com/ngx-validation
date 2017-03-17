@@ -1,7 +1,8 @@
 # ngx-validation
-
+[![Build Status](https://travis-ci.org/ReactiveCore-com/ngx-validation.svg?branch=master)](https://travis-ci.org/ReactiveCore-com/ngx-validation)
 [![Coverage Status](https://coveralls.io/repos/github/ReactiveCore-com/ngx-validation/badge.svg?branch=master)](https://coveralls.io/github/ReactiveCore-com/ngx-validation?branch=karma-fix)
-[![Coverage Status](https://coveralls.io/repos/github/ReactiveCore-com/ngx-validation/badge.svg?branch=master)](https://coveralls.io/github/ReactiveCore-com/ngx-validation?branch=master)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/danrevah/ng-pipes/blob/master/LICENSE.md)
+
 
 Angular2 + form validators
 
@@ -34,7 +35,6 @@ Set up in your project like this
 ### Examples
  use the email validator
   ```ts
-  //  put the directive right on the formControl
     <input mdInput placeholder="Email" validateEmail  formControlName="email" >
   // default acceptable file extensions are pdf and own, set your own file extensions like this
       <input mdInput placeholder="Email" validateEmail [fileType]="['docx','png']"  formControlName="email" >
