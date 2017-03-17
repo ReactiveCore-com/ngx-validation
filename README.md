@@ -1,7 +1,8 @@
 # ngx-validation
-
+[![Build Status](https://travis-ci.org/ReactiveCore-com/ngx-validation.svg?branch=master)](https://travis-ci.org/ReactiveCore-com/ngx-validation)
 [![Coverage Status](https://coveralls.io/repos/github/ReactiveCore-com/ngx-validation/badge.svg?branch=master)](https://coveralls.io/github/ReactiveCore-com/ngx-validation?branch=karma-fix)
-[![Coverage Status](https://coveralls.io/repos/github/ReactiveCore-com/ngx-validation/badge.svg?branch=master)](https://coveralls.io/github/ReactiveCore-com/ngx-validation?branch=master)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/danrevah/ng-pipes/blob/master/LICENSE.md)
+
 
 Angular2 + form validators
 
