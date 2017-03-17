@@ -33,10 +33,15 @@ Set up in your project like this
 ```
 
 ### Examples
- use the email validator
-  ```ts
-    <input mdInput placeholder="Email" validateEmail  formControlName="email" >
-  // default acceptable file extensions are pdf and own, set your own file extensions like this
-      <input mdInput placeholder="Email" validateEmail [fileType]="['docx','png']"  formControlName="email" >
 
+#### Email Validation
+
+  ```ts
+    <input type="email" validateEmail>
+  ```
+
+#### File Upload Validation
+
+  ```ts
+    <input type="file" [fileType]="['docx','png']">
   ```
