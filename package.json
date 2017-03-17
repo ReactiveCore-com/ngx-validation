@@ -1,14 +1,15 @@
 {
   "name": "ngx-validation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "angular2 and above validation directives by ReactiveCore",
-  "main": "index.ts",
+  "main": "src/app/index.js",
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "test": " ng test -cc --watch=false",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "build:js": "ngc -p tsconfig-aot.json"
   },
   "repository": {
     "type": "git",
