@@ -36,4 +36,7 @@ Set up in your project like this
  use the email validator
   ```ts
     <input mdInput placeholder="Email" validateEmail  formControlName="email" >
+  // default acceptable file extensions are pdf and own, set your own file extensions like this
+      <input mdInput placeholder="Email" validateEmail [fileType]="['docx','png']"  formControlName="email" >
+
   ```
