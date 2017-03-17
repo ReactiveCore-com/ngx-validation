@@ -1,7 +1,7 @@
 {
   "name": "ngx-validation",
   "version": "0.0.1",
-  "description": "angular2 and above validation directives by ReactiveCore",
+  "description": "angular two and above validation directives by ReactiveCore",
   "main": "index.ts",
   "angular-cli": {},
   "scripts": {
@@ -53,8 +53,8 @@
     "angular2",
     "validation"
   ],
-  "author": "Christ Portscheller && Joe Zhou",
-  "license": "ISC",
+  "author": "ReactiveCore - Chris Portscheller && Joe Zhou",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ReactiveCore-com/ngx-validation/issues"
   },
