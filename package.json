@@ -1,8 +1,8 @@
 {
   "name": "ngx-validation",
-  "version": "0.0.2",
-  "description": "angular2 and above validation directives by ReactiveCore",
-  "main": "src/app/index.js",
+  "version": "0.0.4",
+  "description": "angular two and above validation directives by ReactiveCore",
+  "main": "index.ts",
   "angular-cli": {},
   "scripts": {
     "ng": "ng",

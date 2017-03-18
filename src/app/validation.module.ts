@@ -6,7 +6,7 @@ import { SqlValidator } from './directives/sql-validator.directive';
 import { FileTypeValidator } from './directives/file-type-validator.directive';
 
 @NgModule({
-  imports: [ ],
+  imports: [],
   declarations: [
     SqlValidator,
     FileTypeValidator,
