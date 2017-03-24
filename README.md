@@ -9,7 +9,7 @@ Angular2 + form validators
 ngx-validation is made by ReactiveCore for common form validation:
 - email validation
 - file upload type validation
-- sql query validation
+- sql query validation (dependent on https://github.com/forward/sql-parser)
 - equals validation
 
 
