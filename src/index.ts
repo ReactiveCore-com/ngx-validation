@@ -1,1 +1,1 @@
-export * from './app/validation.module';
+export { NgValidationModule } from './app/validation.module'

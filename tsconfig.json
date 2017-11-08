@@ -1,0 +1,35 @@
+{
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false,
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "skipMetadataEmit" : false
+  },
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es2015",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}

@@ -25,6 +25,9 @@
     "node_modules",
     "**/*.spec.ts"
   ],
+  "files": [
+    "index.d.ts"
+  ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true
