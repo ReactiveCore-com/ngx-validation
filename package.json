@@ -1,6 +1,6 @@
 {
   "name": "ngx-validation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "angular two and above validation directives by ReactiveCore",
   "main": "dist/bundle.umd.js",
   "module": "dist/index.js",
@@ -64,5 +64,6 @@
   "bugs": {
     "url": "https://github.com/ReactiveCore-com/ngx-validation/issues"
   },
-  "homepage": "https://github.com/ReactiveCore-com/ngx-validation#readme"
+  "homepage": "https://github.com/ReactiveCore-com/ngx-validation#readme",
+  "dependencies": {}
 }
