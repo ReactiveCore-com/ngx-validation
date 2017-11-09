@@ -1,6 +1,6 @@
 {
   "name": "ngx-validation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "angular two and above validation directives by ReactiveCore",
   "main": "dist/bundle.umd.js",
   "module": "dist/index.js",
@@ -17,9 +17,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ReactiveCore-com/ngx-validation.git"
-  },
-  "optionalDependencies": {
-    "sql-parser": "^0.5.0"
   },
   "devDependencies": {
     "@angular/common": "^5.0.1",
@@ -57,7 +54,10 @@
   },
   "keywords": [
     "angular2",
-    "validation"
+    "validation",
+    "angular validation",
+    "angular2+ input validation",
+    "file upload validation"
   ],
   "author": "ReactiveCore - Chris Portscheller && Joe Zhou",
   "license": "MIT",
