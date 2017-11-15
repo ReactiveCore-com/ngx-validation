@@ -39,7 +39,7 @@ export class EqualValidator implements Validator {
       if (e.errors && e.errors['validateEqual'] ) {
         delete e.errors['validateEqual'];
       }
-      if (!Object.keys(e.errors).length) {
+      if (!e.errors || !Object.keys(e.errors).length) {
         e.setErrors(null);
       }
     }
