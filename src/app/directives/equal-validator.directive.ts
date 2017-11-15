@@ -49,7 +49,7 @@ export class EqualValidator implements Validator {
       if (e.errors && e.errors['validateEqual'] ) {
         delete e.errors['validateEqual'];
       }
-      e.setErrors({validateEqual: false});
+      e.setErrors({validateEqual: 'not equal'});
     }
 
     return null;
