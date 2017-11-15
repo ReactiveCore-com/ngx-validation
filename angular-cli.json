@@ -15,7 +15,7 @@
       "tsconfig": "tsconfig.json",
       "prefix": "src",
       "scripts": [],
-      "environments": {
+      "environmentSource": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
