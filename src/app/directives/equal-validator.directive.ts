@@ -36,7 +36,9 @@ export class EqualValidator implements Validator {
 
     // value equal and reverse
     if (e && v === e.value && this.isReverse) {
-      delete e.errors['validateEqual'];
+      if (e.errors && e.errors['validateEqual'] ) {
+        delete e.errors['validateEqual'];
+      }
       if (!Object.keys(e.errors).length) {
         e.setErrors(null);
       }
@@ -44,6 +46,9 @@ export class EqualValidator implements Validator {
 
     // value not equal and reverse
     if (e && v !== e.value && this.isReverse) {
+      if (e.errors && e.errors['validateEqual'] ) {
+        delete e.errors['validateEqual'];
+      }
       e.setErrors({validateEqual: false});
     }
 
