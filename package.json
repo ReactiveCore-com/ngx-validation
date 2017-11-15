@@ -1,6 +1,6 @@
 {
   "name": "ngx-validation",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "angular two and above validation directives by ReactiveCore",
   "main": "dist/bundle.umd.js",
   "module": "dist/index.js",
