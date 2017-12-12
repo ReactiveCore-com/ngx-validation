@@ -27,6 +27,7 @@ import {
 export class FileTypeValidator implements Validator {
   @Input() fileType: [string] = ['owl', 'xml'];
   @Output() fileAdded = new EventEmitter();
+  @Input() isRequired = true;
   files: File[];
   control: AbstractControl;
 
@@ -54,7 +55,13 @@ export class FileTypeValidator implements Validator {
         };
       }
     }
-    return null;
+    if (this.isRequired) {
+      return {
+        file: 'please upload a valid file'
+      };
+    } else  {
+      return null;
+    }
   }
 
   @HostListener('change', ['$event'])
