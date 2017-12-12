@@ -54,9 +54,7 @@ export class FileTypeValidator implements Validator {
         };
       }
     }
-    return {
-      file: 'please upload a valid file'
-    };
+    return null;
   }
 
   @HostListener('change', ['$event'])
