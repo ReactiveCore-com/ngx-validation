@@ -25,7 +25,7 @@ import {
 })
 
 export class FileTypeValidator implements Validator {
-  @Input() fileType: string[] = ['owl', 'xml'];
+  @Input() fileType = ['owl', 'xml'];
   @Output() fileAdded = new EventEmitter();
   @Input() isRequired = true;
   files: File[];
